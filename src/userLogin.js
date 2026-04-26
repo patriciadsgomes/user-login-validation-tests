@@ -1,20 +1,19 @@
+/* Prerequisites:
+Declare an array containing information about website users, with the following properties: id, name, email,
+password, and expired (boolean, can be true or false). Add at least one user with expired set to true.
 
-/* Pré-requisitos:
-Declare um vetor contendo informações sobre usuários de um site, contendo as propriedades: id, nome, email, 
-senha e expirado (boleano, pode ser true ou false). Adicione ao menos um dos usuarios como expirado sendo true.
+Challenge:
+Build a function to perform login. When using the function, it should return a message indicating that the login
+was successful if there is a user with a matching email and password. The function should indicate that the
+credentials have expired if expired is true. It should also indicate that the credentials are incorrect if the
+email does not exist or if the password is incorrect for the given email.
 
-Desafio:
-Construa uma função de para realizar login. Quem usar a função deverá receber uma mensagem dizendo que o login foi 
-realizado com sucesso caso exista um usuário com email e senha iguais aos informados. A função deve dizer que as 
-credenciais expiraram caso expirado for true. A função também tem que dizer que as credenciais estão incorretas caso o 
-email não exista ou a senha esteja incorreta para aquele email.
+Tests:
+Write 4 tests: 1) Success, 2) Expired credentials, 3) User not found, and 4) Incorrect password for the found user.
 
-Testes:
-Escreva 4 testes: 1) Sucesso, 2) Credencial expirada, 3) Usuario não encontrado e 4) Senha incorreta para o usuário encontrado.
-
-Exemplo:
-fazerLogin('email@existente.com', 'senhaCerta123'); -> 'Login realizado com sucesso'
-fazerLogin('credencial@expirada.com', 'senhaCerta123'); -> Renove suas credenciais
+Example:
+login('existing@email.com', 'correctPassword123'); -> 'Login successful'
+login('expired@credential.com', 'correctPassword123'); -> 'Please renew your credentials'
 */
 
 const users = [
