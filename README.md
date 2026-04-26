@@ -1,6 +1,6 @@
 # User Login Validation Tests
 
-As part of my postgraduate studies in Automated Testing at FACINT, under the mentorship of Professor Júlio de Lima (https://github.com/juliodelimas/), I developed the userLoginValidation function. This project highlights its implementation and testing, covering key authentication scenarios including successful login, expired credentials, and invalid inputs.
+As part of my postgraduate studies in Automated Testing at FACINT, under the mentorship of Professor [Júlio de Lima](https://github.com/juliodelimas/), I developed the userLoginValidation function. This project highlights its implementation and testing, covering key authentication scenarios including successful login, expired credentials, and invalid inputs.
 
 ## Project Structure
 
