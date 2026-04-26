@@ -46,7 +46,7 @@ The tests cover the following scenarios:
 
 ## Author
 
-- Patricia da Silva Gomes (https://github.com/patriciadsgomes)
+- Patricia da Silva Gomes (https://github.com/patriciadsgomes/)
 
 ---
 Feel free to contribute or open issues if you find any problems!
